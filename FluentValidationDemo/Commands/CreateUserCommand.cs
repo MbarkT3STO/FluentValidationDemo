@@ -13,7 +13,6 @@ namespace FluentValidationDemo.Commands
 
 	public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Guid>
 	{
-		
 		public CreateUserCommandHandler()
 		{
 			

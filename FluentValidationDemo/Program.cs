@@ -11,11 +11,17 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+
+
 builder.Services.AddMediatR(typeof(Program).Assembly);
 
 builder.Services.AddFluentValidationAutoValidation().AddFluentValidationClientsideAdapters();
 
-builder.Services.AddTransient<IValidator<CreateUserCommand>, CreateUserCommandValidator>();
+// For registering validators manually
+// builder.Services.AddTransient<IValidator<CreateUserCommand>, CreateUserCommandValidator>();
+
+// For detecting validators automatically
+builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
 
 builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 

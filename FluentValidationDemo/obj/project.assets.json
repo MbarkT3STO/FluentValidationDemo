@@ -706,11 +706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\MBARKT3STO\\Desktop\\FluentValidationDemo\\FluentValidationDemo\\FluentValidationDemo.csproj",
+      "projectUniqueName": "c:\\Users\\MBARKT3STO\\Documents\\GitHub\\FluentValidationDemo\\FluentValidationDemo\\FluentValidationDemo.csproj",
       "projectName": "FluentValidationDemo",
-      "projectPath": "c:\\Users\\MBARKT3STO\\Desktop\\FluentValidationDemo\\FluentValidationDemo\\FluentValidationDemo.csproj",
+      "projectPath": "c:\\Users\\MBARKT3STO\\Documents\\GitHub\\FluentValidationDemo\\FluentValidationDemo\\FluentValidationDemo.csproj",
       "packagesPath": "C:\\Users\\MBARKT3STO\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\MBARKT3STO\\Desktop\\FluentValidationDemo\\FluentValidationDemo\\obj\\",
+      "outputPath": "c:\\Users\\MBARKT3STO\\Documents\\GitHub\\FluentValidationDemo\\FluentValidationDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MBARKT3STO\\AppData\\Roaming\\NuGet\\NuGet.Config",
